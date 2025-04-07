@@ -1,7 +1,7 @@
 # 🚀 Node.js CI/CD App
 
 This is a simple Node.js app deployed using a CI/CD pipeline with GitHub Actions and Docker.  
-The final deployment was done manually on an AWS EC2 instance using Docker to ensure sensitive AWS credentials were not exposed.
+The Hosting was done manually on an AWS EC2 instance using Docker. (Could have done Automation here by changine the main.yml file but chose manual to host application)
 
 ---
 
@@ -34,11 +34,9 @@ The final deployment was done manually on an AWS EC2 instance using Docker to en
 
 ## ☁️ Deployment
 
-The application was **manually deployed** on an **AWS EC2 instance** using Docker.
+The application was **manually hosted** on an **AWS EC2 instance** using Docker.
 
-> 🔐 Manual deployment was intentionally chosen to avoid storing sensitive AWS credentials or SSH keys in GitHub Secrets, ensuring your AWS account and access remain secure.
-
-### 🔧 Manual Deployment Steps
+### 🔧 Manual hosting Steps
 
 1. **Launch an EC2 instance** (Ubuntu) via AWS Console
 
